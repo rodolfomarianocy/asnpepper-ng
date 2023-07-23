@@ -14,7 +14,6 @@ import (
 
 func main() {
 	fs := flag.NewFlagSet(os.Args[0], flag.ExitOnError)
-
 	orgParam := fs.String("org", "", "Filter by organization name")
 	outputFileParam := fs.String("output", "", "Output file name")
 
